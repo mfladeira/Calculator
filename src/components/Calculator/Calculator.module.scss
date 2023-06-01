@@ -1,0 +1,22 @@
+.calculator {
+    width: 270px;
+    height: 370px;
+    background-color: #3b728b;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 1px 1px #d3c8c8;
+
+    .containerDigits {
+        height: calc(100% - 36px);
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+        .containerDigit {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
